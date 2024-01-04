@@ -1,0 +1,60 @@
+.about{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 50px 0;
+    
+
+    .left{
+        flex: 1;
+    
+        .content{
+            padding-left: 15vh;
+            padding-top: 15vh;
+            h2{
+                
+                font-family: sans-serif;
+                font-size: 28px;
+    
+            }
+    
+            p{
+                font-size: 18px;
+    
+            }
+            li{
+                padding: 20px 0;
+                font-size: 18px;
+            }
+
+            .btn{
+                padding: 12px 35px;
+                border: 1px solid rgb(33, 0, 0);
+                margin-top: 30px;
+                cursor: pointer;
+
+                
+            }
+           
+        }
+      
+       
+        
+    }
+    .right{
+        flex: 1;
+        
+        img{
+            padding: 70px 20px;
+            width: 80%;
+            height: 80vh;
+        }
+
+    }
+}
+
+.sky{
+    width: 100%;
+    padding-top: 50vh;
+    scroll-behavior: smooth;
+}
