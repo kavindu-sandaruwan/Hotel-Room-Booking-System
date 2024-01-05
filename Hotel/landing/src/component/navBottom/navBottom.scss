@@ -1,0 +1,49 @@
+.navbottom{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    position: fixed;
+  top: 10vh;
+  z-index: 100; 
+    .items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+        
+         a {
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 19px;
+            color: white;
+            transition: color 0.3s ease-in-out; /* Adding a smooth color transition on hover */
+          }
+          
+           a:hover {
+            background-color: white; /* Background color change on hover */
+            color: black; /* Text color change on hover */
+          }
+       
+        
+        
+            .navbtn{
+                width: 150px;
+                margin-left: 50px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: transparent;
+                border: 1px solid #ffffff;   
+                font-family: sans-serif;
+                font-size: 15px;
+                color: white;
+                
+                
+             }
+        
+        
+    }
+
+}
