@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
     <div>
       <footer className="footer">
         <div className="footer__addr">
-          <h1 className="footer__logo">PM Luxury Gardens</h1>
+          <h1 className="footer__logo">PM LUXURY GARDENS</h1>
 
           <h2>Contact</h2>
 
           <address>
-            5534 Temple Road/ Kandy/ Srilanka<br />
+            Temple Road, Kandy , Sri Lanka<br />
             <a className="footer__btn" href="mailto:example@gmail.com">
-              Email Us
+              Email Us - PMLUXURYGARDENS@GMAIL.COM
             </a>
           </address>
         </div>
@@ -25,44 +25,38 @@ const Footer: React.FC = () => {
 
             <ul className="nav__ul">
               <li>
-                <a href="#">Online</a>
+                <a href="#">Facebook</a>
               </li>
 
               <li>
-                <a href="#">Print</a>
+                <a href="#">Instagram</a>
               </li>
 
               <li>
-                <a href="#">Alternative Ads</a>
+                <a href="#">Twitter</a>
               </li>
             </ul>
           </li>
 
           <li className="nav__item nav__item--extra">
-            <h2 className="nav__title">Links</h2>
+            <h2 className="nav__title">Components</h2>
 
             <ul className="nav__ul nav__ul--extra">
               <li>
-                <a href="#">Home </a>
+                <a href="#">Home</a>
               </li>
 
               <li>
-                <a href="#">About </a>
+                <a href="#">About</a>
               </li>
 
               <li>
-                <a href="#">Rooms </a>
+                <a href="#">Rooms</a>
               </li>
 
               <li>
-                <a href="#">Contact </a>
+                <a href="#">Contacts</a>
               </li>
-
-              <li>
-                <a href="#">Reviews </a>
-              </li>
-
-              
             </ul>
           </li>
 
@@ -88,7 +82,9 @@ const Footer: React.FC = () => {
         <div className="legal">
           <p>&copy; 2024. All rights reserved.</p>
 
-          
+          <div className="legal__links">
+            <span>Made with <span className="heart">♥</span></span>
+          </div>
         </div>
       </footer>
     </div>
