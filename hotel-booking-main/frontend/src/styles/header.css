@@ -1,0 +1,90 @@
+/* Style for the Navbar */
+.navbar-container {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Style for the Navbar Toggle (if needed) */
+  .navbar-toggle {
+    /* Add styles for the toggle if needed */
+  }
+  
+  /* Style for the Navbar Collapse */
+  .navbar-collapse {
+    display: flex;
+  }
+  
+  /* Style for the Navbar Left Nav Links */
+  .navbar-nav-left {
+    display: flex;
+    flex: 1;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Style for the Navbar Right Nav Links */
+  .navbar-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the Dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-title {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-divider {
+    height: 1px;
+    background-color: #000000;
+    margin: 5px 0;
+  }
+  
