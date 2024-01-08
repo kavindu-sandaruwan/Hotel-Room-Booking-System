@@ -1,0 +1,12 @@
+.Room_con{
+    justify-items: center;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
